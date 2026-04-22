@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:\\\\Users\\\\user\\\\.claude\\\\skills\\\\pgsql-workspace\\\\iteration-1\\\\old_skill\\\\outputs\")",
+      "Bash(cp \"C:\\\\Users\\\\user\\\\.claude\\\\skills\\\\pgsql\\\\SKILL.md\" \"C:\\\\Users\\\\user\\\\.claude\\\\skills\\\\pgsql-workspace\\\\iteration-1\\\\old_skill\\\\SKILL.md\")",
+      "WebFetch(domain:skills.sh)",
+      "WebSearch",
+      "Bash(curl -s -L https://skills.sh/)",
+      "Bash(curl -s -L \"https://skills.sh/api/skills\")",
+      "Bash(curl -s -L \"https://skills.sh/docs\")",
+      "Bash(curl -s -L \"https://skills.sh/docs/faq\")",
+      "Bash(curl -s -L \"https://api.github.com/repos/anthropics/skills/contents\")",
+      "Bash(curl -s -L \"https://api.github.com/repos/anthropics/skills/contents/skills\")",
+      "Bash(curl:*)",
+      "Bash(npx skills:*)",
+      "Skill(security-review)",
+      "Bash(python:*)",
+      "Bash(PGPASSWORD='crm@123456' psql:*)",
+      "Bash(chcp 65001)",
+      "Read(//d C:/Users/user/.claude/skills/**)",
+      "Bash(F:\\\\python311\\\\python.exe -X utf8 scripts/run_loop.py --eval-set \"E:/SourceCode/skills/pgsql-workspace/trigger-eval.json\" --skill-path \"E:/SourceCode/skills/skills/pgsql\" --model \"MiniMax-M2.7\" --max-iterations 5 --verbose)",
+      "Bash(F:/python311/python.exe:*)"
+    ]
+  }
+}

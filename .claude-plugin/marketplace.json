@@ -1,0 +1,22 @@
+{
+  "name": "your-name/pgsql-skill",
+  "owner": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "metadata": {
+    "description": "PostgreSQL database skill for Claude",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pgsql-skill",
+      "description": "PostgreSQL database operations skill - execute SELECT queries directly, generate SQL scripts for INSERT/UPDATE/DELETE/DDL operations",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/pgsql"
+      ]
+    }
+  ]
+}
