@@ -28,7 +28,7 @@ Claude will return:
 ## Installation
 
 ```bash
-npx skills add maxwell60701/pgsql-skill
+npx skills add https://github.com/maxwell60701/skills --skill pgsql
 ```
 
 ## Connection Parameters
