@@ -15,7 +15,7 @@ This safety-first approach ensures data modifications are reviewed before execut
 
 ## Usage
 
-```
+```text
 # Provide connection info, then describe your requirement:
 # "Query the last 10 records from users table"
 # "Create an orders table with id, user_id, total_amount, created_at"
@@ -28,15 +28,13 @@ Claude will return:
 ## Installation
 
 ```bash
-npx skills add your-username/pgsql-skill
+npx skills add maxwell60701/pgsql-skill
 ```
-
-Replace `your-username` with your GitHub username.
 
 ## Connection Parameters
 
 | Parameter | Description | Default |
-|-----------|-------------|---------|
+| --------- | ----------- | ------- |
 | host | Database address | - |
 | port | Port number | 5432 |
 | database | Database name | - |
@@ -46,7 +44,7 @@ Replace `your-username` with your GitHub username.
 ## SQL Execution Policy
 
 | Operation | Execution | Reason |
-|-----------|-----------|--------|
+| --------- | --------- | ------ |
 | SELECT | Execute directly | Read-only, safe |
 | INSERT | Script only | Data modification |
 | UPDATE | Script only | Data modification |
@@ -105,4 +103,4 @@ CREATE TABLE orders (
 
 ## License
 
-Apache 2.0
+MIT

@@ -15,7 +15,7 @@ This safety-first approach ensures data modifications are reviewed before execut
 
 ## Usage
 
-```
+```text
 # Provide connection info, then describe your requirement:
 # "Query the last 10 records from users table"
 # "Create an orders table with id, user_id, total_amount, created_at"
@@ -33,4 +33,4 @@ npx skills add maxwell60701/pgsql-skill
 
 ## License
 
-Apache 2.0
+MIT
