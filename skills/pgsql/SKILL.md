@@ -1,6 +1,20 @@
 ---
 name: pgsql
-description: Use this skill whenever the user mentions PostgreSQL, pgsql, postgres, PostgreSQL operations, connecting to a database, running SQL queries, database management, table creation, data insertion/update/deletion, or any task requiring interacting with a PostgreSQL database. This skill handles connecting to PostgreSQL, executing SELECT queries, generating INSERT/UPDATE/DELETE/CREATE/ALTER/DROP scripts, and all other SQL operations. Make sure to use this skill for ALL database interaction requests, even vague ones like "query this table", "check the database", "run a SQL command", "connect to postgres", "I need to work with the database", or "help me write a SQL query". CRITICAL: SELECT queries execute directly and return results. INSERT/UPDATE/DELETE/CREATE/ALTER/DROP operations ONLY generate SQL scripts — never execute them, even if the user asks.
+description: |
+  Use this skill whenever the user mentions PostgreSQL, pgsql, postgres, PostgreSQL operations,
+  connecting to a database, running SQL queries, database management, table creation,
+  data insertion/update/deletion, or any task requiring interacting with a PostgreSQL database.
+
+  This skill handles connecting to PostgreSQL, executing SELECT queries, generating
+  INSERT/UPDATE/DELETE/CREATE/ALTER/DROP scripts, and all other SQL operations.
+
+  Make sure to use this skill for ALL database interaction requests, even vague ones like
+  "query this table", "check the database", "run a SQL command", "connect to postgres",
+  "I need to work with the database", or "help me write a SQL query".
+
+  CRITICAL: SELECT queries execute directly and return results.
+  INSERT/UPDATE/DELETE/CREATE/ALTER/DROP operations ONLY generate SQL scripts — never execute them,
+  even if the user asks.
 license: MIT
 compatibility: Requires psql (PostgreSQL CLI) and pip (Python package manager). For Python scripts, psycopg2 is required.
 metadata:
