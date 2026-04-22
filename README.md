@@ -28,10 +28,8 @@ Claude will return:
 ## Installation
 
 ```bash
-npx skills add your-username/pgsql-skill
+npx skills add maxwell60701/pgsql-skill
 ```
-
-Replace `your-username` with your GitHub username.
 
 ## License
 
